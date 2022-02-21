@@ -45,8 +45,7 @@ async def check_for_banned_games(bot: MyClient, message: nextcord.Message) -> No
 
 
 async def search_guild(guild: nextcord.Guild, cache: GameCache) -> list[nextcord.Member]:
-    all_member_ids = guild.fetch_members(
-        limit=None).map(lambda m: m.id).chunk(100)
+    all_member_ids = guild.fetch_members(limit=None).map(lambda m: m.id).chunk(100)
     all_members = []
     async for mem_chunk in all_member_ids:
         all_members.append(await guild.query_members(user_ids=mem_chunk, limit=100, presences=True, cache=True))
