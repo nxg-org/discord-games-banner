@@ -1,6 +1,6 @@
 {
     "token": "OTI3NzUzOTIxMTUyMjk0OTIy.YdO0Kw.Of-4qo4wmtyrL4Cvn0TqU_Ha638",
     "prefix": "!",
-    "auto_ban": true,
+    "auto_ban": false,
     "owner_id": null
 }

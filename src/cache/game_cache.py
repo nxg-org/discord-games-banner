@@ -90,12 +90,12 @@ class GameCache:
         return time.time() - time_start >= self.cache["blacklist"][game_name]
 
     def dump_cache_to_file(self):
-        with open('lib/cache/storage/data.json', 'w') as outfile:
+        with open('src/cache/storage/data.json', 'w') as outfile:
             json.dump(self.cache, outfile, default=cache_dump_default)
 
     def load_cache_from_file(self, filename: Optional[str]):
         if not filename:
-            filename = 'lib/cache/storage/data.json'
+            filename = 'src/cache/storage/data.json'
         with open(filename, 'r') as outfile:
             self.cache = json.load(outfile)
             self.cache["whitelist_members"] = set(
