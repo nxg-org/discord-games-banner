@@ -1,0 +1,1 @@
+from .auto_check_guilds import check_all_guilds

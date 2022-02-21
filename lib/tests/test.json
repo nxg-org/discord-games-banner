@@ -1,0 +1,50 @@
+{
+    "user": {
+        "id": "355427757376667659",
+        "username": "ModeratelyDisappointing",
+        "avatar": "a_437268400eceaf4d8c5f4215c888bd15",
+        "discriminator": "0456",
+        "public_flags": 256,
+        "flags": 256,
+        "banner": null,
+        "banner_color": "#b08ae4",
+        "accent_color": 11569892,
+        "bio": "tbh i just wanna play genshin without being shamed \ud83d\ude2d"
+    },
+    "connected_accounts": [
+        { "type": "github", "id": "87029499", "name": "ModeratelyDisappointing", "verified": true },
+        { "type": "playstation", "id": "5435709390825638519", "name": "ModeratelyDis", "verified": true },
+        { "type": "steam", "id": "76561199229585059", "name": "Moderately", "verified": true },
+        { "type": "twitch", "id": "460196152", "name": "moderatelydisappointing", "verified": true },
+        {
+            "type": "xbox",
+            "id": "MDY1M2IyYjUzMzZjMjQ5YjY4MWI4ZmFhYzVjMWMwZWNkN2QzZTg2NmRlOGRmZmVmZWJlMDM2YTM2ZDhhMjFmMA",
+            "name": "Moderately1",
+            "verified": true
+        },
+        { "type": "youtube", "id": "UCk-NyEOW0lw09GUi_d6gsKw", "name": "Moderately", "verified": true }
+    ],
+    "premium_since": "2022-01-19T13:08:28.279395+00:00",
+    "premium_guild_since": null,
+    "guild_member": {
+        "roles": ["844307893304950826", "891072913032216607"],
+        "nick": "florida man",
+        "avatar": null,
+        "premium_since": null,
+        "joined_at": "2021-10-22T12:36:30.876000+00:00",
+        "is_pending": false,
+        "pending": false,
+        "communication_disabled_until": null,
+        "user": {
+            "id": "355427757376667659",
+            "username": "ModeratelyDisappointing",
+            "avatar": "a_437268400eceaf4d8c5f4215c888bd15",
+            "discriminator": "0456",
+            "public_flags": 256
+        },
+        "bio": "",
+        "banner": null,
+        "mute": false,
+        "deaf": false
+    }
+}
