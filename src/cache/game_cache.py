@@ -10,7 +10,7 @@ from datetime import datetime
 import nextcord
 import json
 
-from lib.util import cache_dump_default
+from src.util import cache_dump_default
 
 
 class GameCache:

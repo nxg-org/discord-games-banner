@@ -1,6 +1,6 @@
 # /usr/bin/python3.10
 import nextcord
-from lib.bot import MyClient
+from src.bot import MyClient
 from config import *
 
 

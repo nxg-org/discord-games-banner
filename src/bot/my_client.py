@@ -4,9 +4,9 @@ import asyncio
 from typing import Optional
 import nextcord
 
-from lib.cache import GameCache
-import lib.commands
-import lib.loops
+from src.cache import GameCache
+import src.commands
+import src.loops
 
 
 class MyClient(nextcord.Client):
@@ -22,7 +22,7 @@ class MyClient(nextcord.Client):
         self.loop.create_task(self.custom_ready_wait())
         self.owner = None
         self.owner_id = owner_id
-        for item in lib.commands.__dict__.items():
+        for item in src.commands.__dict__.items():
             if callable(item[1]):
                 print(item)
                 self.cmds[item[0]] = item[1]
@@ -36,7 +36,7 @@ class MyClient(nextcord.Client):
         self.owner = await self.fetch_user(self.owner_id) if self.owner_id else (await self.application_info()).owner
         self.owner_id = self.owner.id
 
-        for item in lib.loops.__dict__.items():
+        for item in src.loops.__dict__.items():
             if (callable(item[1])):
                 print(item)
                 self.loops[item[0]] = self.loop.create_task(item[1](self))

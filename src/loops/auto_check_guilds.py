@@ -8,7 +8,7 @@ if TYPE_CHECKING:
 
 
 import nextcord
-from lib.commands.game_banning import search_guild
+from src.commands.game_banning import search_guild
 
 
 async def check_all_guilds(bot: MyClient) -> None:
